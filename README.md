@@ -74,7 +74,8 @@ prueba-practica-pr → main
 ```
 
 4. Agrega una breve descripción de lo que hiciste
-5. Envía el Pull Request
+5. Adjunta capturas de pantalla de tu trabajo
+6. Envía el Pull Request
 
 ---
 
