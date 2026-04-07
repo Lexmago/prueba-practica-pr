@@ -1,0 +1,17 @@
+{
+  "name": "prueba-practicantes",
+  "version": "1.0.0",
+  "description": "Prueba técnica frontend",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "prev": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

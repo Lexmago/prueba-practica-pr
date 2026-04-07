@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="w-full bg-white shadow-sm px-20 py-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">MiApp</h1>
+
+    <nav class="flex gap-10 text-gray-600">
+      <a href="#">Producto</a>
+      <a href="#">Soluciones</a>
+      <a href="#">Precios</a>
+      <a href="#">Clientes</a>
+      <a href="#">Recursos</a>
+    </nav>
+
+    <div class="flex gap-4">
+      <button class="px-4 py-2 border rounded">Login</button>
+      <button class="px-4 py-2 bg-blue-600 text-white rounded">Registrarse</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="w-full bg-white px-20 py-24 flex items-center justify-between">
+    
+    <div class="max-w-[600px]">
+      <h2 class="text-6xl font-bold leading-tight mb-6">
+        Escala tu negocio con tecnología moderna
+      </h2>
+      <p class="text-lg text-gray-600 mb-8">
+        Automatiza procesos, mejora tu productividad y toma decisiones con datos en tiempo real.
+      </p>
+
+      <div class="flex gap-4">
+        <button class="bg-blue-600 text-white px-6 py-3 rounded font-semibold">
+          Comenzar gratis
+        </button>
+        <button class="border px-6 py-3 rounded">
+          Ver demo
+        </button>
+      </div>
+
+      <!-- STATS -->
+      <div class="flex gap-12 mt-10">
+        <div>
+          <p class="text-2xl font-bold">+15k</p>
+          <p class="text-sm text-gray-500">Usuarios</p>
+        </div>
+        <div>
+          <p class="text-2xl font-bold">120+</p>
+          <p class="text-sm text-gray-500">Empresas</p>
+        </div>
+        <div>
+          <p class="text-2xl font-bold">99.9%</p>
+          <p class="text-sm text-gray-500">Uptime</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ml-20">
+      <img src="https://www.esic.edu/sites/default/files/2023-02/FotoJet.jpg" class="w-[730px] shadow-xl rounded-lg">
+    </div>
+
+  </section>
+
+  <!-- FEATURES -->
+  <section class="w-full px-20 py-24 bg-gray-50">
+    
+    <h2 class="text-3xl font-bold mb-16">
+      Todo lo que necesitas para crecer
+    </h2>
+
+    <div class="grid grid-cols-3 gap-12">
+      
+      <div class="bg-white p-10 shadow rounded-lg">
+        <h3 class="font-bold text-lg mb-4">Automatización</h3>
+        <p class="text-gray-600">
+          Reduce tareas repetitivas y optimiza tus procesos internos.
+        </p>
+      </div>
+
+      <div class="bg-white p-10 shadow rounded-lg">
+        <h3 class="font-bold text-lg mb-4">Analítica avanzada</h3>
+        <p class="text-gray-600">
+          Visualiza datos clave en dashboards intuitivos.
+        </p>
+      </div>
+
+      <div class="bg-white p-10 shadow rounded-lg">
+        <h3 class="font-bold text-lg mb-4">Integraciones</h3>
+        <p class="text-gray-600">
+          Conecta con herramientas externas sin complicaciones.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SECCIÓN MIXTA -->
+  <section class="w-full bg-white py-24">
+    
+    <div class="flex items-center">
+
+      <!-- TEXTO -->
+      <div class="w-[500px] ml-20">
+        <h2 class="text-4xl font-bold mb-6">
+          Control total de tu operación
+        </h2>
+        <p class="text-gray-600 mb-6">
+          Gestiona todos tus procesos desde un solo lugar con herramientas diseñadas para escalar contigo.
+        </p>
+        <button class="bg-blue-600 text-white px-6 py-3 rounded">
+          Saber más
+        </button>
+      </div>
+
+      <div class="ml-40">
+        <img src="https://www.byt.bz/wp-content/uploads/2026/01/cuanto-cuesta-marketing-digital-miami-usd.webp" class="w-[800px] shadow-xl rounded">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PRICING -->
+  <section class="w-full px-20 py-24 bg-gray-50">
+    
+    <h2 class="text-3xl font-bold mb-16 text-center">
+      Planes
+    </h2>
+
+    <div class="flex justify-center gap-12">
+      
+      <div class="w-[300px] bg-white p-8 shadow rounded">
+        <h3 class="font-bold text-xl mb-4">Starter</h3>
+        <p class="text-3xl font-bold mb-6">$0</p>
+        <ul class="text-sm text-gray-600 mb-6">
+          <li>✔ Básico</li>
+          <li>✔ 1 proyecto</li>
+        </ul>
+      </div>
+
+      <div class="w-[300px] bg-white p-8 shadow rounded scale-110">
+        <h3 class="font-bold text-xl mb-4">Pro</h3>
+        <p class="text-3xl font-bold mb-6">$29</p>
+        <ul class="text-sm text-gray-600 mb-6">
+          <li>✔ Todo incluido</li>
+          <li>✔ Ilimitado</li>
+        </ul>
+      </div>
+
+      <div class="w-[300px] bg-white p-8 shadow rounded">
+        <h3 class="font-bold text-xl mb-4">Enterprise</h3>
+        <p class="text-3xl font-bold mb-6">Custom</p>
+        <ul class="text-sm text-gray-600 mb-6">
+          <li>✔ Personalizado</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="w-full px-20 py-24 bg-blue-600 text-white flex justify-between items-center">
+    
+    <div>
+      <h2 class="text-4xl font-bold mb-4">
+        Empieza hoy
+      </h2>
+      <p class="text-lg">
+        Sin tarjeta de crédito.
+      </p>
+    </div>
+
+    <button class="bg-white text-blue-600 px-8 py-3 rounded font-semibold">
+      Crear cuenta
+    </button>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="w-full px-20 py-10 bg-gray-900 text-gray-400 flex justify-between">
+    <p>© 2026 MiApp</p>
+    <div class="flex gap-8">
+      <a href="#">Privacidad</a>
+      <a href="#">Términos</a>
+      <a href="#">Soporte</a>
+    </div>
+  </footer>
+
+</body>
+</html>
