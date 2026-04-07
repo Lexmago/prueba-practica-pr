@@ -10,7 +10,7 @@ El objetivo de esta prueba es evaluar tu forma de trabajar con código y Git.
 Debes:
 
 * Trabajar sobre este repositorio
-* Resolver los requerimientos indicados
+* Resolver el requerimiento indicado
 * Enviar tu solución mediante un Pull Request
 
 ---
